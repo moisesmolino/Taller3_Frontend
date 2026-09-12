@@ -1,0 +1,15 @@
+.pie-de-pagina {
+  background-color: #677D5F;
+  text-align: center;
+  padding: 24px 20px;
+}
+
+.pie-de-pagina__texto {
+  color: #E6E6E6;
+  font-size: 14px;
+}
+
+.pie-de-pagina__texto-destacado {
+  color: #B0F080;
+  font-weight: bold;
+}

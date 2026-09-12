@@ -1,0 +1,36 @@
+.tarjeta-curso {
+  background-color: #D2D2D2;
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  text-align: left;
+}
+
+.tarjeta-curso__icono {
+  font-size: 32px;
+  display: block;
+  margin-bottom: 12px;
+}
+
+.tarjeta-curso__titulo {
+  color: #404E3B;
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+.tarjeta-curso__descripcion {
+  color: #546648;
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 16px;
+}
+
+.tarjeta-curso__nivel {
+  display: inline-block;
+  color: #546648;
+  background-color: #C0FF96;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: bold;
+}

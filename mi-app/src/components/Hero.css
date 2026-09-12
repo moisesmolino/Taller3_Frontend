@@ -1,0 +1,38 @@
+.presentacion {
+  background:#404E3B;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.presentacion__texto-principal {
+  color: #E6E6E6;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.presentacion__texto-destacado {
+  color: #C0FF96;
+}
+
+.presentacion__texto-secundario {
+  color: #D2D2D2;
+  font-size: 18px;
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+.presentacion__boton {
+  background-color: #C0FF96;
+  color: #546648;
+  border: none;
+  padding: 14px 32px;
+  border-radius: 30px;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.presentacion__boton:hover {
+  background-color: #B0F080;
+}

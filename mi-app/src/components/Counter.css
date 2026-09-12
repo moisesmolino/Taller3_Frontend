@@ -1,0 +1,54 @@
+.contador {
+  background-color: #404E3B;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.contador__titulo {
+  color: #E6E6E6;
+  font-weight: bold;
+  font-size: 28px;
+  margin-bottom: 8px;
+}
+
+.contador__subtitulo {
+  color: #D2D2D2;
+  margin-bottom: 32px;
+}
+
+.contador__caja {
+  background-color: #677D5F;
+  display: inline-flex;
+  align-items: center;
+  gap: 24px;
+  padding: 20px 40px;
+  border-radius: 16px;
+}
+
+.contador__boton {
+  background-color: #C0FF96;
+  color: #546648;
+  border: none;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.contador__boton:hover {
+  background-color: #B0F080;
+}
+
+.contador__numero {
+  color: #B0F080;
+  font-size: 36px;
+  font-weight: bold;
+  min-width: 40px;
+}
+
+.contador__pie {
+  color: #D2D2D2;
+  margin-top: 16px;
+}
