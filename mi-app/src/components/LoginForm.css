@@ -1,0 +1,80 @@
+.formulario-login {
+  background-color: #404E3B;
+  display: flex;
+  justify-content: center;
+  padding: 80px 20px;
+  min-height: 85vh;
+  box-sizing: border-box;
+}
+
+.formulario-login__form {
+  background-color: #546648;
+  width: 100%;
+  max-width: 380px;
+  padding: 32px;
+  border-radius: 16px;
+}
+
+.formulario-login__titulo {
+  color: #E6E6E6;
+  font-size: 24px;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.formulario-login__campo {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 18px;
+}
+
+.formulario-login__etiqueta {
+  color: #D2D2D2;
+  font-size: 14px;
+  margin-bottom: 6px;
+}
+
+.formulario-login__input {
+  background-color: #404E3B;
+  color: #E6E6E6;
+  border: 1px solid #D2D2D2;
+  border-radius: 8px;
+  padding: 10px 12px;
+  font-size: 14px;
+}
+
+.formulario-login__input:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.formulario-login__boton {
+  background-color: #C0FF96;
+  color: #546648;
+  border: none;
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  margin-top: 8px;
+}
+
+.formulario-login__boton:hover:not(:disabled) {
+  background-color: #B0F080;
+}
+
+.formulario-login__boton:disabled {
+  background-color: #D2D2D2;
+  color: #546648;
+  cursor: not-allowed;
+}
+
+.formulario-login__microcopy {
+  color: #D2D2D2;
+  font-size: 12px;
+  text-align: center;
+  margin-top: 16px;
+  line-height: 1.4;
+}

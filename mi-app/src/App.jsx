@@ -4,20 +4,21 @@ import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import './App.css'
 import './components/Header.jsx'
-import Header from './components/Header.jsx'
-import Hero from './components/Hero.jsx'
-import CoursesSection from './components/CoursesSection.jsx'
-import Counter from './components/Counter.jsx'
-import Footer from './components/Footer.jsx'
+import {Route, Routes} from 'react-router-dom'
+import Inicio from './pages/inicio.jsx'
+import Cursos from './pages/Cursos.jsx'
+import Contador from './pages/Contador.jsx'
+import Login from './pages/Login.jsx'
+
 function App() {
 return (
-<div>
-  <Header/>
-  <Hero/>
-  <CoursesSection/>
-  <Counter/>
-  <Footer/>
-</div>
+  <Routes>
+    <Route path="/" element={<Inicio />} />
+    <Route path="/cursos" element={<Cursos />} />
+    <Route path="/nosotros" element={<Contador />} />
+    <Route path="/login" element={<Login />} />
+    <Route path="*" element={<h1>404 NOT FOUND</h1>} />
+  </Routes>
 );
 }
 

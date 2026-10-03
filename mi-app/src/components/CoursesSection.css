@@ -2,6 +2,8 @@
   background-color: #E6E6E6;
   text-align: center;
   padding: 80px 20px;
+  min-height: 85vh;
+  box-sizing: border-box;
 }
 
 .seccion-cursos__titulo {

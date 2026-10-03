@@ -1,4 +1,6 @@
 import './Hero.css'
+import { NavLink } from 'react-router-dom'
+
 function Hero(){
     return(
         <section className="presentacion">
@@ -6,7 +8,9 @@ function Hero(){
                 Aprende <text className="presentacion__texto-destacado">React</text> desde cero
             </h1>
             <p className="presentacion__texto-secundario">Domina la librería más papular del frontend con proyectos prácticos y reales.</p>
-            <button className="presentacion__boton">Ver Cursos</button>
+            <NavLink to="/cursos">
+                <button className="presentacion__boton">Ver Cursos</button>
+            </NavLink>
         </section>
     )
 }
